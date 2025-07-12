@@ -1,5 +1,24 @@
+/* style.css */
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.flex {
+  max-width: 200px;
 }
 
 img {
@@ -7,10 +26,41 @@ img {
   height: 100px;
 }
 
+/* My Work - Corrections Above */
+/* 
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding-top: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 200px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  text-align: center;
+}
+*/
 
 /* do not edit this footer */
 .footer {
