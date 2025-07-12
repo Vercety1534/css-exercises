@@ -1,0 +1,34 @@
+/* styles.css */
+
+/* Corrected */
+.clicky,
+.no-clicky {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.clicky {
+    background: #000000;
+    color: #ffffff;
+}
+
+.no-clicky {
+    background-color: yellow;
+}
+
+
+/* Original
+.add-font {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.clicky {
+    background: #000000;
+    color: #ffffff;
+}
+
+.no-clicky {
+    background-color: yellow;
+}
+*/
