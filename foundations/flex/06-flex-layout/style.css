@@ -1,3 +1,5 @@
+/* style.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -5,6 +7,45 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Omit justify-content */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  /* Add flex: 1; */
+  /* Add justify-content: center; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: lightgray;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
 }
 
 img {
@@ -16,6 +57,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  /* Can add more padding ex.  padding: 8px 16px;*/
 }
 
 input {
