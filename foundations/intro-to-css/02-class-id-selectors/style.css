@@ -1,0 +1,22 @@
+/* styles.css */
+
+.classe {
+    background-color: rgba(255, 0, 0, 0.3);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.larger {
+    font-size: 24px;
+}
+
+#one-ID {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+/* Could have used class="larger" to avoid duplicate font size code */
+#another-ID {
+    background-color: #00ff0080;
+    font-size: 24px;
+    font-weight: bold;
+}
